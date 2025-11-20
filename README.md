@@ -19,17 +19,29 @@ Mendukung Multi Domain, Multi Radius, dan Firewall Security.
 ---
 ## Persyaratan
 - VPS dengan akses root (sudo)
-- DNS A record: `(subdomain.domain)` → IP VPS
+- DNS A record: `radius.domainkamu.com` → IP VPS
 - Port 80 & 443 terbuka (untuk Certbot)
 - Sistem operasi: Ubuntu 20.04 / 22.04 / 24.04 (tested)
 
+---
+
+## 📥 **Input yang Diminta Saat Install**
+
+Installer akan meminta:
+
+1. **Domain untuk DaloRADIUS**
+   Contoh: `radius.domainkamu.com`
+
+2. **Email untuk SSL Certbot**
+
+3. **Password MySQL untuk FreeRADIUS**
+   (bisa dikosongkan untuk pakai default)
+
+---
 ## 🚀 Cara Install
-## Cara pakai (single-command)
 ```bash
-# clone repo lalu jalankan
-git clone https://github.com/heruhendri/Installer-MikRadius---NATVPS/tree/main.git
-cd Installer-MikRadius---NATVPS
-sudo bash install-mikradius-manual.sh
+bash <(curl -s https://raw.githubusercontent.com/heruhendri/Installer-MikRadius---NATVPS/main/mikradius-install.sh)
+
 ````
 
 
