@@ -43,7 +43,11 @@ Installer akan meminta:
 bash <(curl -s https://raw.githubusercontent.com/heruhendri/Installer-MikRadius---NATVPS/main/mikradius-install.sh)
 
 ````
+Installer Baru
+```bash
+bash <(curl -s https://raw.githubusercontent.com/heruhendri/Installer-MikRadius---NATVPS/main/install-raius.sh)
 
+````
 
 
 ## 📌 Default Login DaloRADIUS
