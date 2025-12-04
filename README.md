@@ -45,7 +45,7 @@ bash <(curl -s https://raw.githubusercontent.com/heruhendri/Installer-MikRadius-
 ````
 Installer Baru
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/heruhendri/Installer-radius/main/install-raius.sh)
+bash <(curl -s https://raw.githubusercontent.com/heruhendri/Installer-radius/refs/heads/main/install-radius.sh)
 
 ````
 
